@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { io } from 'socket.io-client';
 
-const socket = io('http://localhost:3001');
+const socket = io('https://west-cup-hub-back-end.onrender.com');
 
 export default function Home() {
   const [name, setName] = useState('');
